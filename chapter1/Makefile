@@ -7,5 +7,7 @@ url:URLify.cpp
 	$(CC) $(CFLAGS) -o url URLify.cpp
 palindrome: isPalinPermute.cpp
 	$(CC) $(CFLAGS) -o palindrome isPalinPermute.cpp
+rotateMatrix: rotateMatrix.cpp
+	$(CC) $(CFLAGS) -o rotateMatrix rotateMatrix.cpp
 clean:
 	rm -f *.cpp~ *~
