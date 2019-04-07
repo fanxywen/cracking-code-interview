@@ -1,0 +1,9 @@
+#include <iostream>
+#include <stack>
+using namespace std;
+
+class MinStack{
+private:
+  stack<int> mystack;
+  stack<int> minstack;
+};

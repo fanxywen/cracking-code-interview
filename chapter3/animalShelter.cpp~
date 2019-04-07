@@ -1,0 +1,33 @@
+#include <iostream>
+#include <list>
+#include <string>
+using namesapce std;
+class animal{
+private:
+  string type;
+  int age;
+public:
+  animal(string _type):type(_type), age(){}
+  ~animal(){}
+  void setAge(int _age){
+    age = _age;
+  }
+  int getAge(){
+    return age;
+  }
+};
+class shelter{
+private:
+  list<int> dogs;
+  list<int> cats;
+  vector<list<int>::iterator > ages;
+public:
+  shelter(){}
+  ~shelter(){}
+  void enqueue(animal a){
+    if(a.type == "dog")
+  }
+  void dequeueAny(){
+    
+  }
+};
