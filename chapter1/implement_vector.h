@@ -1,4 +1,4 @@
-#include 
+
 templeate <typename T>
 class myvector{
  private:
@@ -9,7 +9,7 @@ class myvector{
  vector():size(0), capacity(1), buffer(){
     buffer = new T;
   }
- vector(size_t size_):size(size_), capacity(), buffer(){
+ vector(size_t size_):size(0), capacity(), buffer(){
     if(size_ < 2){
       capacity = 1;
       buffer = new T;
